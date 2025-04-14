@@ -1,0 +1,18 @@
+{
+  "name": "features",
+  "version": "1.0.0",
+  "main": "nlpService.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/translate": "^9.0.1",
+    "axios": "^1.8.4",
+    "node-nlp": "^5.0.0-alpha.5",
+    "tesseract.js": "^6.0.1"
+  }
+}

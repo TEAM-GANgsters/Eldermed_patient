@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 210 40% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 210 40% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 210 40% 20%;
+
+    --primary: 174 55% 53%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 261 76% 64%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 210 40% 96%;
+    --muted-foreground: 210 40% 40%;
+
+    --accent: 342 100% 70%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 40% 90%;
+    --input: 210 40% 90%;
+    --ring: 174 55% 53%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 210 40% 20%;
+    --sidebar-primary: 174 55% 53%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 210 40% 96%;
+    --sidebar-accent-foreground: 210 40% 20%;
+    --sidebar-border: 210 40% 90%;
+    --sidebar-ring: 174 55% 53%;
+  }
+
+  .dark {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 15%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 15%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 174 55% 43%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 261 76% 54%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 222 47% 20%;
+    --muted-foreground: 210 40% 70%;
+
+    --accent: 342 100% 60%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 50.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 222 47% 25%;
+    --input: 222 47% 25%;
+    --ring: 174 55% 43%;
+
+    --sidebar-background: 222 47% 15%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 174 55% 43%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 222 47% 20%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 222 47% 25%;
+    --sidebar-ring: 174 55% 43%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer components {
+  .neumorphic {
+    @apply bg-medical-light shadow-[6px_6px_12px_#dde6ee,-6px_-6px_12px_#ffffff] dark:bg-medical-dark dark:shadow-[4px_4px_10px_#1a242f,-4px_-4px_10px_#3e5871];
+  }
+  
+  .neumorphic-inset {
+    @apply bg-medical-light shadow-[inset_4px_4px_8px_#dde6ee,inset_-4px_-4px_8px_#ffffff] dark:bg-medical-dark dark:shadow-[inset_4px_4px_8px_#1a242f,inset_-4px_-4px_8px_#3e5871];
+  }
+  
+  .pill-button {
+    @apply rounded-full py-3 px-6 font-medium transition-all duration-200 ease-out hover:shadow-md focus:outline-none focus:ring-2 focus:ring-primary;
+  }
+  
+  .card-gradient {
+    @apply bg-gradient-to-br from-white to-medical-light/30 backdrop-blur-sm dark:from-medical-dark dark:to-medical-dark/60;
+  }
+}

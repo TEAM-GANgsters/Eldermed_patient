@@ -1,0 +1,122 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs
+*.log
+
+# Google credentials
+google-credentials.json
+**/google-credentials.json
+
+# Debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+/build
+/dist
+
+# Coverage directories
+/coverage
+
+# Other
+.tmp/
+.temp/
+.cache/
+
+# Dependency directories
+jspm_packages/
+
+# Logs
+pnpm-debug.log*
+lerna-debug.log*
+
+# Cache directories
+.eslintcache
+.parcel-cache
+
+# Misc
+Thumbs.db
+*.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependencies
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Data files
+*.sqlite
+*.db
+*.pdf
+!Medical-Chatbot-GenAI-main/Data/*.pdf
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw? 

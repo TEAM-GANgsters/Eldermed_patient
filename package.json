@@ -1,0 +1,20 @@
+{
+  "name": "eldermed-integrated",
+  "version": "1.0.0",
+  "description": "Integrated health application with reminders, OCR, and translation services",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "install-all": "npm install && cd frontend && npm install && cd ../eldermed-backend && npm install && cd ../features && npm install",
+    "install-features": "cd features && npm install",
+    "install-chatbot": "cd Medical-Chatbot-GenAI-main && pip install -r requirements.txt && pip install -r additional_requirements.txt",
+    "frontend": "cd frontend && npm run dev",
+    "backend": "cd eldermed-backend && npm run dev",
+    "chatbot": "cd Medical-Chatbot-GenAI-main && python3 app_api.py"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tesseract.js": "^6.0.1"
+  }
+}

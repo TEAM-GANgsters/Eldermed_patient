@@ -111,6 +111,7 @@ This will launch:
 - AI-powered medical assistant accessible from any page
 - Answers medical questions and provides guidance
 - Text-to-speech capability for accessibility
+- Multi-language support to assist users from different linguistic backgrounds.
 - Seamless integration with the frontend
 - Uses Google Gemini API for accurate medical responses
 - Floating UI accessible from all application pages

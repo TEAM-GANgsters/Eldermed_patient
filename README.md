@@ -9,6 +9,17 @@ This project integrates several components into a unified healthcare application
 - Translation Services for Multiple Languages
 - Browser Notifications for Medication Reminders
 
+
+## 🙌 Contributors
+
+This project was a collaborative effort. Huge thanks to:
+
+- [@not-cmd](https://github.com/not-cmd)
+- [@TechWizDhruv](https://github.com/TechWizDhruv)
+- [@harrsh45](https://github.com/harrsh45)
+- [@Ved4ntBhole](https://github.com/Ved4ntBhole)
+See [CONTRIBUTORS.md](./CONTRIBUTORS.md) for details on each member's role.
+
 ## Project Screenshots
 
 ### Dashboard

@@ -9,6 +9,38 @@ This project integrates several components into a unified healthcare application
 - Translation Services for Multiple Languages
 - Browser Notifications for Medication Reminders
 
+## Project Screenshots
+
+### Dashboard
+![Dashboard](Screenshots/Dashboard.png)
+*Main dashboard with medication reminders and quick access to services*
+
+### Reminders
+![Reminder Creation](Screenshots/Reminder%20Creation.png)
+*Creating a new medication reminder*
+
+![All Created Reminders](Screenshots/All%20Created%20Reminders.png)
+*View of all created medication reminders*
+
+### Medical Chatbot
+![Chatbot](Screenshots/Chatbot.png)
+*AI-powered Medical Chatbot interface*
+
+### User Profile 
+![Profile I](Screenshots/Profile-I.png)
+*User profile management screen*
+
+![Profile II](Screenshots/profile-II.png)
+*Additional profile settings*
+
+### Translation Feature
+![Translated Dashboard](Screenshots/Translated-Dashboard.jpeg)
+*Dashboard with translated content*
+
+### Additional Features
+![Other Features](Screenshots/Other%20Features.png)
+*Overview of other available features*
+
 ## Project Structure
 
 ```
